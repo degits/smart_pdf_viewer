@@ -2,14 +2,28 @@
 
 A new Flutter plugin project.
 
-## Getting Started
+## Dev steps
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+1. Import the Android_pdf_viewer module
+2. Add the above module to build.gradle (:smart_pdf_viewer).
+```
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation project(":android-pdf-viewer")
+}
+```
+3. Add PdfViwerActivity.java
+4. Create a new `res` folder. and add PdfViewerActiviy layout file for it.
+---------------------------------------------------------------------------
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5. Setup SmartPdfViewerPlugin.java
+6. create assets folder and copy paste sample.pdf
+7. Add PdfViewerActiviy activity to example's AndroidManifiest.xml
+```
+<activity
+  android:name="com.degits.smart_pdf_viewer.PDFViewActivity"
+  android:screenOrientation="portrait"
+  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+```
 
+8. Run and see the pdf
