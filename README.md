@@ -1,6 +1,6 @@
 # smart_pdf_viewer
 
-smart = new stunning ui + cache last reading page(continue)
+smart = new stunning ui + cache last reading page(continue) + dynamic mutli option appbar(+ show/hide)
 
 ## Dev steps
 
