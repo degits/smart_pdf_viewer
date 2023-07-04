@@ -1,6 +1,6 @@
 # smart_pdf_viewer
 
-A new Flutter plugin project.
+smart = new stunning ui + cache last reading page(continue)
 
 ## Dev steps
 
