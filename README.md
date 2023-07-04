@@ -27,3 +27,7 @@ dependencies {
 ```
 
 8. Run and see the pdf
+
+---------------------------------------------------------------------------
+# TODO
+Implement method channel for open PdfViewerActivity (current imp will open PdfViewActivity on default method channel call)
